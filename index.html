@@ -9,7 +9,67 @@
 </head>
 
 <body>
+  <main>
+    <section class="login-box">
+      <div class="container ">
+        <div class="container-login">
+          <form action="">
+            <div class="switch">
+              <input type="checkbox" id="swch">
+              <label for="swch">
+                <span>Вход</span>
+                <span>Регистрация</span>
+              </label>
+            </div>
+            <h1 class="login">Вход</h1>
+            <div class="input-box">
+              <input type="text" placeholder="Введите Е-mail">
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Пароль" required>
+            </div>
 
+            <div class="checkbox">
+              <input type="checkbox" id="agree">
+              <label class="checkbox text-white" for="agree">Запомнить меня</label>
+              <a class="checkbox-a" href="#">Забыли пароль</a>
+            </div>
+
+            <button type="submit" class="btn">Войти</button>
+            <div class="register">
+              <p class="text-about">Еще нет аккаунта?
+                <a class="register-btn" href="#">Зарегистрироваться</a>
+              </p>
+              <p class="register-text">Или войдите через</p>
+              <ul class="list">
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use href="/img/sprites.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use href="img/sprites.svg#insta"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg>
+                      <use href="img/sprites.svg#link"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
